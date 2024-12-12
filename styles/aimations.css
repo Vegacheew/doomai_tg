@@ -1,0 +1,91 @@
+@keyframes doom_pulse {
+  0% {
+    transform: translateX(-50%) scale(1);
+  }
+
+  50% {
+    transform: translateX(-50%) scale(1.05);
+  }
+
+  100% {
+    transform: translateX(-50%) scale(1);
+  }
+}
+@keyframes demo_side_in {
+  0% {
+    transform: translate(-50%, -20%);
+  }
+  100% {
+    transform: translate(0%, 0%);
+  }
+}
+@keyframes doomguy_side_in {
+  0% {
+    transform: translate(-42%, 60%) rotate(15deg);
+  }
+  100% {
+    transform: translate(-42%, 0%) rotate(0);
+  }
+}
+
+@keyframes doomguy_side_in_mobile {
+  0% {
+    transform: translate(-42%, 60%) rotate(15deg);
+    opacity: 0;
+  }
+  100% {
+    transform: translate(-42%, 0%) rotate(0);
+    opacity: 1;
+  }
+}
+
+@keyframes wilf_rotate {
+  0% {
+    transform: scale(0.4) rotate(5400deg);
+  }
+  100% {
+    transform: scale(1) rotate(0deg);
+  }
+}
+@keyframes play_pulse {
+  0% {
+    transform: translate(-50%, -50%) scale(1);
+  }
+
+  70% {
+    transform: translate(-50%, -50%) scale(1.05);
+  }
+
+  100% {
+    transform: translate(-50%, -50%) scale(1);
+  }
+}
+@keyframes baron_scale {
+  0% {
+    transform: translate(150%, 150%) scale(0.4);
+  }
+
+  100% {
+    transform: translate(0, 0) scale(1);
+  }
+}
+@keyframes baron_ebuchka {
+  0% {
+    background-image: url("../assets/pics/baron_1.png");
+  }
+
+  100% {
+    background-image: url("../assets/pics/baron_2.png");
+  }
+}
+
+@keyframes border-dance {
+  0% {
+    background-position: left top, right bottom, left bottom, right top;
+  }
+
+  100% {
+    background-position: left 15px top, right 15px bottom, left bottom 15px,
+      right top 15px;
+  }
+}

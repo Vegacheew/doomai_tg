@@ -2,9 +2,21 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0"/>
+    <title>DOOMEME: Brutal Meme Token of the Cryptoverse</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Telegram Mini Apps Vanilla JS Sample App</title>
+    <link rel="stylesheet" href="./styles/aimations.css" type="text/css" />
+    <link rel="stylesheet" href="./styles/index.css" type="text/css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+ 
+    <link rel="stylesheet" href="./styles/js-dos.css" />
+
+    <script src="./scripts/js-dos.js"></script>
+    <script src="./scripts/copy-clipboard.js"></script>
+    <script src="./scripts/index.js"></script>
     <style>
         body {
             --bg-color: var(--tg-theme-bg-color);
@@ -64,11 +76,11 @@
 
 <body>
     <main>
-        <div align="center">
-            <a href="https://ton.org/"><img width="48" src="./assets/tapps.png" alt="logo of telegram web apps"></a>
+        <div class="screen second">
+            <div id="dos"></div>
         </div>
-        <h1>Modals</h1>
-        <button onclick="Telegram.WebApp.showAlert('Hello World!');">Launch Alert</button>
+
+        <!-- <button onclick="Telegram.WebApp.showAlert('Hello World!');">Launch Alert</button>
         <button onclick="showPopup();">Launch Popup</button>
 
         <h1>Links</h1>
@@ -86,7 +98,7 @@
 
         <h1>Buttons</h1>
         <button onclick="Telegram.WebApp.expand();">Expand Webview</button>
-        <button onclick="toggleMainButton();">Toggle Main Button</button>
+        <button onclick="toggleMainButton();">Toggle Main Button</button> -->
     </main>
     <div id="viewport"></div>
     <div id="viewport-params-size"></div>
