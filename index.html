@@ -110,6 +110,10 @@
             document.documentElement.className = Telegram.WebApp.colorScheme;
         });
 
+        canvas.addEventListener("click", async () => {
+            await canvas.requestPointerLock();
+        });
+
         // Function to call showPopup API
         function showPopup() {
             Telegram.WebApp.showPopup({
