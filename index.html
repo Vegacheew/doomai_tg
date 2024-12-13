@@ -109,10 +109,12 @@
         Telegram.WebApp.onEvent('themeChanged', function() {
             document.documentElement.className = Telegram.WebApp.colorScheme;
         });
+        
+        const element = document.getElementById("canvas");
 
-        canvas.addEventListener("click", async () => {
-            await canvas.requestPointerLock();
-        });
+        element.onclick = () => {
+            document.body.requestPointerLock();
+        }
 
         // Function to call showPopup API
         function showPopup() {
